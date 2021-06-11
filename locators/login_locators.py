@@ -14,7 +14,7 @@ class SignUpLocators:
     CONFIRMATION_CODE = (By.XPATH, "//*[contains(@data-id, 'confirm-code-input')]")
     RESEND_MAIL_BTN = (By.XPATH, "//button[contains(@data-id, 'resend-code-btn')]")
     CONFIRM_MAIL_BTN = (By.XPATH, "//button[contains(@data-id, 'submit-code-btn')]")
-    MY_ACCOUNT = (By.XPATH, "//button[contains(@data-id, 'sidebar-user-menu')]//*[contains(text(), 'My account')]")
+    MY_ACCOUNT = (By.XPATH, "//button[contains(@data-id, 'sidebar-user-menu')]")
 
 
 class SignInLocators:
